@@ -1,0 +1,23 @@
+{
+  "name": "hireloop-server",
+  "version": "0.0.1",
+  "description": "HireLoop job platform API for job seekers, recruiters, and admins",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongodb": "^7.9.0"
+  }
+}
